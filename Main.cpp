@@ -1,0 +1,11 @@
+#include "GameControl.h"
+#include<cstdio>
+int main() {
+	//freopen("≤‚ ‘ ˝æ›.txt", "w", stdout);
+	srand(0);
+	AIPlayer ai;
+	ai.TEST();
+	GameControl gc = GameControl();
+	gc.mainloop();
+	return 0;
+}
